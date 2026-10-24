@@ -35,3 +35,9 @@ insert into rental (status, reserved_at, start_date, planned_return_date, return
     ('OVERDUE',  '2026-10-08 18:30:00', '2026-10-10', '2026-10-12', null),
     ('ISSUED',   '2026-10-22 12:00:00', '2026-10-23', '2026-10-26', null),
     ('RESERVED', '2026-10-20 09:00:00', '2026-11-14', '2026-11-16', null);
+
+-- ===== LAB 02 · customer =====
+insert into customer (first_name, last_name, email, phone, registered_on) values
+    ('Anna',  'Kowalska', 'anna.kowalska@example.com', '600200300', '2026-09-15'),
+    ('Piotr', 'Nowak',    'piotr.nowak@example.com',   null,        '2026-10-02'),
+    ('Ewa',   'Zielińska','ewa.zielinska@example.com', '600400500', '2026-10-20');
