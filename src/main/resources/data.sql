@@ -8,5 +8,11 @@ insert into user_account (email, display_name, role, created_at) values
     ('admin@example.com',       'Admin', 'ADMIN',   current_timestamp);
 
 -- LAB 01: Wasze konta (zmieńcie na swoje dane, rola USER)
--- insert into user_account (email, display_name, role, created_at) values
---     ('imie.nazwisko@student.merito.pl', 'Imię', 'USER', current_timestamp);
+insert into user_account (email, display_name, role, created_at) values
+    ('wrx81843@student.wroclaw.merito.pl', 'Patryk',  'USER', current_timestamp),
+    ('s480084@student.wroclaw.merito.pl',  'Mateusz', 'USER', current_timestamp);
+
+-- Konto Marka, właściciela wypożyczalni z wizytówki. Zespół jest na razie dwuosobowy,
+-- a reguła R1.03 wymaga co najmniej 3 kont poza demo.
+insert into user_account (email, display_name, role, created_at) values
+    ('marek@example.com', 'Marek', 'ADMIN', current_timestamp);
